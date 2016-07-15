@@ -1,0 +1,34 @@
+{
+  "name": "reepo",
+  "version": "0.0.0",
+  "description": "Setup to initialize new repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalphyx/reepo.git"
+  },
+  "keywords": [
+    "repo",
+    "repository",
+    "init",
+    "npm"
+  ],
+  "author": "dalphyx <wjcbmk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dalphyx/reepo/issues"
+  },
+  "homepage": "https://github.com/dalphyx/reepo#readme",
+  "bin": {
+    "reepo": "cli.js"
+  },
+  "dependencies": {
+    "execa": "^0.4.0",
+    "meow": "^3.7.0",
+    "vue": "^2.0.0-beta.1",
+    "ora": "^0.2.3"
+  }
+}
